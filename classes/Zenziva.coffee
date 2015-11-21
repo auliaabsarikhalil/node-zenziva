@@ -16,11 +16,9 @@ class Zenziva
 
 		debug "Validating parameter"
 
-		data = @data
-		
-		errors = []
-
-		required = ['phones', 'message']
+		data 		= @data
+		errors 		= []
+		required 	= ['phones', 'message']
 
 		required.forEach (key) ->
 
