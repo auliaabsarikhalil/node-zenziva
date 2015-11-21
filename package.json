@@ -1,0 +1,23 @@
+{
+  "name": "node-zenziva",
+  "version": "1.0.0",
+  "description": "Sample code for integrate zenziva sms service using nodejs",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register"
+  },
+  "keywords": [
+    "zenziva",
+    "sms"
+  ],
+  "author": "Aulia-Absari Khalil <auliaabsarikhalil@gmail.com> (https://github.com/auliaabsarikhalil)",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "expect.js": "^0.3.1",
+    "should": "^7.1.1"
+  }
+}
