@@ -20,7 +20,7 @@ module.exports =
 ```
 
 ## How to test it
-1. Setup data variable at `test/android.coffee`, see the sample code below
+1. Setup data variable at `test/zenziva.coffee`, see the sample code below
 2. run `npm test`
 
 ```coffeescript
