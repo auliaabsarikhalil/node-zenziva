@@ -1,5 +1,5 @@
 # Node Zenziva
-Code sample for integrate Zenziva sms service using nodejs
+This is a service for sending a sms using [Zenziva](http://zenziva.net/) service
 
 ## Setup
 
