@@ -1,5 +1,5 @@
-module.exports =
-  zenziva:
-  	userKey : 'USER_KEY'
-  	passKey : 'PASS_KEY'
-  	uri : 'https://reguler.zenziva.net/apps/smsapi.php'
+Settings  = require 'settings'
+env       = require './.env'
+config    = new Settings(require('./.msConfig'), { env : env })
+
+module.exports = config
