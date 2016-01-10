@@ -49,3 +49,9 @@ data =
    "message" : "Hello world !!!"
 }
 ```
+
+## Params Glosary
+| Params        | Type     | Description |
+| ------------- |:-------------:| ------------|
+| phones | Array | List of phone number that will be sent  |
+| message | String | message that you want to sent |
