@@ -2,6 +2,12 @@ module.exports =
 	common:
 		port: 3593
 		host:"localhost"
+		kue:
+			interval: 2000
+			maxActiveJobs: 30
+			attempts : 3
+			backoff:
+				type: "exponential"
 
 	development:
 		host:"localhost"
